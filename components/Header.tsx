@@ -120,7 +120,7 @@ function randomKaomoji() {
   return kaomoji[Math.floor(Math.random() * kaomoji.length)];
 }
 
-export default function Hero() {
+export default function Header() {
   const [dateText, setDateText] = useState("");
   const [kaomoji, setKaomoji] = useState("");
   // const [tagline, setTagline] = useState("");
@@ -132,9 +132,12 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen bg-cover bg-center relative text-[#cdd6f4]">
+    <section
+      className="flex flex-col min-h-screen bg-cover bg-center relative text-[#cdd6f4]"
+      id="#"
+    >
       <div className="mt-[20%] ml-[10%]">
-        <h2 className="absolute text-9xl font-bold text-[#313244]">
+        <h2 className="absolute text-9xl font-bold text-[#313244] -translate-y-32">
           {kaomoji}
         </h2>
         <h1 className="relative font-normal text-7xl">
@@ -145,10 +148,10 @@ export default function Hero() {
           I make stuff go uwaa
         </h3>
         <p className="relative font-medium text-lg text-[#7f849c] my-5 pb-4 leading-loose text-justify max-w-lg">
-          I'm a computer science student in Mapúa University based in Taguig. I
-          do a lot of stuff ranging from system/network administration,
-          developer operations, full-stack and game development, artificial
-          intelligence and everything in between.
+          I&apos;m a computer science student in Mapúa University based in
+          Taguig. I do a lot of stuff ranging from system/network
+          administration, developer operations, full-stack and game development,
+          artificial intelligence and everything in between.
         </p>
         <div className="flex flex-row">
           <a
@@ -171,6 +174,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

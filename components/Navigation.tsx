@@ -49,8 +49,7 @@ export default function Navigation({ children }: IProps) {
               ["home", "/"],
               ["about-me", "#about"],
               ["experience", "#experience"],
-              ["my-projects", "#projects"],
-              ["test page", "/testpage"],
+              ["all-projects", "/projects"],
               ["transition", "/transition"],
             ].map(([title, url], x) => (
               <Link href={url} key={x}>

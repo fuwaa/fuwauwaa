@@ -6,20 +6,17 @@ import Navigation from "../components/Navigation";
 import Header from "../components/Header";
 import About from "../components/About";
 import Experience from "../components/Experience";
-import Projects from "../components/Projects";
+import ProjectDir from "../components/ProjectDir";
 import Footer from "../components/Footer";
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Head>
         <title>fuwa</title>
       </Head>
       <div className="max-width-7xl">
-        <Header />
-        <About />
-        <Experience />
-        <Projects />
+        <ProjectDir />
         <Footer />
       </div>
     </>
