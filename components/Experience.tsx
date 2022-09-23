@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { BounceLoader } from "react-spinners";
+import { FaDotCircle } from "react-icons/fa";
 
 export default function Experience() {
   return (
@@ -13,27 +15,97 @@ export default function Experience() {
         </div>
       </div>
       <div className="mb-[3%]">
-        <div className="flex flex-row align-items-center">
-          <p className="relative font-medium text-lg text-[#7f849c] my-5 pb-4 leading-loose text-justify max-w-2xl mr-[2%]">
-            Hi! My name is Jariel Que (online alias: tanyu fukazawa). I am
-            currently a student in MAPUA University taking the track Bachelor of
-            Science in Computer Science since 2021. As far as programming goes,
-            I am a self-taught programmer who started from learning Visual Basic
-            back in 2016 and went on and off in the programming scene since
-            then. In terms of languages, I&apos;d say that C#, Java and Dart are
-            my most comfortable ones while the rest is still underway to being
-            comfortable. That aside, I am an average gamer ehem. not
-            particularly &quot;good&quot; at anything, I enjoy watching anime
-            and jam to JPOP from time to time and I&apos;d love to meet people
-            of the same kind or really anyone!
-          </p>
-          <Image
-            src="https://fuwaa.github.io/tanyu.dev/assets/img/20210505_210653.jpg"
-            width="350"
-            height="300"
-            alt="test"
-            className="rounded-3xl"
-          />
+        <div className="flex flex-col">
+          <div className="flex flex-row align-items-center">
+            <div className="flex flex-col align-items-center">
+              <BounceLoader
+                size={18}
+                color={"#cdd6f4"}
+                className="ml-16 my-2"
+              />
+              <div className="ml-16 h-64 border-white border-r-2 -translate-x-2" />
+            </div>
+            <div className="ml-5 translate-y-0.5">
+              <p className="text-2xl font-semibold">
+                Cloud Solutions Contractor @{" "}
+                <span className="text-[#cba6f7]">DevKinetics</span>
+              </p>
+              <p className="mb-2">
+                CONTRACT/PROJECT BASED • JUL 2021 - AUG 2022 (2 mos)
+              </p>
+              <p className="max-w-2xl">
+                As an Infrastructure and DevOps Intern, I handle AWS
+                Infrastructure of the company in addition to the deployment of
+                CI/CD tools. In addition to that, I was also tasked to handle
+                the following: • Use Agile Methodology as a practice. • Create
+                and Deploy CI/CD tools inclusive but not limited to of Jenkins,
+                Mattermost, Internal Tools. • Create and Deploy the
+                Infrastructure using Terraform. • Manage and Create Helm Charts
+                for use in Kubernetes. • Push and test our deployment in AWS on
+                CodeCommit and on GitHub. • Take on a leadership role under
+                CI/CD, guiding the Microservices Team. • Write and Verify
+                Documentation.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row align-items-center">
+            <div className="flex flex-col align-items-center">
+              <FaDotCircle className="ml-16 my-2 translate-x-0.5" />
+              <div className="ml-16 h-64 border-white border-r-2 -translate-x-1.5" />
+            </div>
+            <div className="ml-5 translate-y-0.5">
+              <p className="text-2xl font-semibold">
+                DevOps Intern @{" "}
+                <span className="text-[#cba6f7]">DevKinetics</span>
+              </p>
+              <p className="mb-2">INTERNSHIP • FEB 2022 - JUN 2022 (5 mos)</p>
+              <p className="max-w-2xl">
+                As an Infrastructure and DevOps Intern, I handle AWS
+                Infrastructure of the company in addition to the deployment of
+                CI/CD tools. In addition to that, I was also tasked to handle
+                the following: • Use Agile Methodology as a practice. • Create
+                and Deploy CI/CD tools inclusive but not limited to of Jenkins,
+                Mattermost, Internal Tools. • Create and Deploy the
+                Infrastructure using Terraform. • Manage and Create Helm Charts
+                for use in Kubernetes. • Push and test our deployment in AWS on
+                CodeCommit and on GitHub. • Take on a leadership role under
+                CI/CD, guiding the Microservices Team. • Write and Verify
+                Documentation.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row align-items-center">
+            <div className="flex flex-col align-items-center">
+              <FaDotCircle className="ml-16 my-2 translate-x-0.5" />
+              <div className="ml-16 h-64 border-white border-r-2 -translate-x-1.5" />
+            </div>
+            <div className="ml-5 translate-y-0.5">
+              <p className="text-2xl font-semibold">
+                Front-end Intern @{" "}
+                <span className="text-[#cba6f7]">DevKinetics</span>
+              </p>
+              <p className="mb-2">INTERNSHIP • DEC 2021 - FEB 2022 (3 mos)</p>
+              <p className="max-w-2xl">
+                As an Infrastructure and DevOps Intern, I handle AWS
+                Infrastructure of the company in addition to the deployment of
+                CI/CD tools. In addition to that, I was also tasked to handle
+                the following: • Use Agile Methodology as a practice. • Create
+                and Deploy CI/CD tools inclusive but not limited to of Jenkins,
+                Mattermost, Internal Tools. • Create and Deploy the
+                Infrastructure using Terraform. • Manage and Create Helm Charts
+                for use in Kubernetes. • Push and test our deployment in AWS on
+                CodeCommit and on GitHub. • Take on a leadership role under
+                CI/CD, guiding the Microservices Team. • Write and Verify
+                Documentation.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row align-items-center">
+            <div className="flex flex-col align-items-center">
+              <FaDotCircle className="ml-16 my-2 translate-x-0.5" />
+            </div>
+            <div className="ml-5 translate-y-1">You've reached the end! 🚀</div>
+          </div>
         </div>
       </div>
     </section>

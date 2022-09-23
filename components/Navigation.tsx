@@ -49,12 +49,11 @@ export default function Navigation({ children }: IProps) {
               ["home", "/"],
               ["about-me", "#about"],
               ["experience", "#experience"],
-              ["all-projects", "/projects"],
-              ["transition", "/transition"],
+              ["my-projects", "/projects"],
             ].map(([title, url], x) => (
               <Link href={url} key={x}>
                 <a className="text-md font-bold text-right cursor-pointer m-0">
-                  {x} | {title}
+                  /{title}
                 </a>
               </Link>
             ))}

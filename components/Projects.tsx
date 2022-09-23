@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { HiOutlineArrowRight } from "react-icons/hi";
 
 export default function Projects() {
   return (
@@ -13,27 +14,239 @@ export default function Projects() {
         </div>
       </div>
       <div className="mb-[3%]">
-        <div className="flex flex-row align-items-center">
-          <p className="relative font-medium text-lg text-[#7f849c] my-5 pb-4 leading-loose text-justify max-w-2xl mr-[2%]">
-            Hi! My name is Jariel Que (online alias: tanyu fukazawa). I am
-            currently a student in MAPUA University taking the track Bachelor of
-            Science in Computer Science since 2021. As far as programming goes,
-            I am a self-taught programmer who started from learning Visual Basic
-            back in 2016 and went on and off in the programming scene since
-            then. In terms of languages, I&apos;d say that C#, Java and Dart are
-            my most comfortable ones while the rest is still underway to being
-            comfortable. That aside, I am an average gamer ehem. not
-            particularly &quot;good&quot; at anything, I enjoy watching anime
-            and jam to JPOP from time to time and I&apos;d love to meet people
-            of the same kind or really anyone!
-          </p>
-          <Image
-            src="https://fuwaa.github.io/tanyu.dev/assets/img/20210505_210653.jpg"
-            width="350"
-            height="300"
-            alt="test"
-            className="rounded-3xl"
-          />
+        <div className="grid grid-cols-3 gap-2 flex-row align-items-center max-w-5xl">
+          <div className="rounded-3xl bg-[#453c56]">
+            <div className="flex flex-col align-items-center  max-w-2xl p-6 rounded-3xl">
+              <div className="flex flex-row mb-[1%] items-center">
+                <h1 className="relative font-medium text-3xl mr-[1%]">
+                  {" "}
+                  sample project
+                </h1>
+
+                <div className="pl-4 flex flex-col justify-center w-[50%]">
+                  <h1 className="relative font-medium text-2xl text-[#313244]">
+                    sample project type
+                  </h1>
+                </div>
+              </div>
+              <p>
+                Quam et aut eum dolores dolore. Quia sed laboriosam rerum
+                voluptatem dignissimos. Sequi tempora inventore perferendis. Ut
+                et ut dolores sint. Tempora nesciunt consequatur id sunt vero.
+              </p>
+              <div className="grid grid-cols-3 gap-1 mt-2">
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">sample</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">html</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">css</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">react</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">oss</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-3xl bg-[#453c56]">
+            <div className="flex flex-col align-items-center  max-w-2xl p-6 rounded-3xl">
+              <div className="flex flex-row mb-[1%] items-center">
+                <h1 className="relative font-medium text-3xl mr-[1%]">
+                  {" "}
+                  sample project
+                </h1>
+
+                <div className="pl-4 flex flex-col justify-center w-[50%]">
+                  <h1 className="relative font-medium text-2xl text-[#313244]">
+                    sample project type
+                  </h1>
+                </div>
+              </div>
+              <p>
+                Quam et aut eum dolores dolore. Quia sed laboriosam rerum
+                voluptatem dignissimos. Sequi tempora inventore perferendis. Ut
+                et ut dolores sint. Tempora nesciunt consequatur id sunt vero.
+              </p>
+              <div className="grid grid-cols-3 gap-1 mt-2">
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">sample</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">html</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">css</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">react</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">oss</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-3xl bg-[#453c56]">
+            <div className="flex flex-col align-items-center  max-w-2xl p-6 rounded-3xl">
+              <div className="flex flex-row mb-[1%] items-center">
+                <h1 className="relative font-medium text-3xl mr-[1%]">
+                  {" "}
+                  sample project
+                </h1>
+
+                <div className="pl-4 flex flex-col justify-center w-[50%]">
+                  <h1 className="relative font-medium text-2xl text-[#313244]">
+                    sample project type
+                  </h1>
+                </div>
+              </div>
+              <p>
+                Quam et aut eum dolores dolore. Quia sed laboriosam rerum
+                voluptatem dignissimos. Sequi tempora inventore perferendis. Ut
+                et ut dolores sint. Tempora nesciunt consequatur id sunt vero.
+              </p>
+              <div className="grid grid-cols-3 gap-1 mt-2">
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">sample</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">html</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">css</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">react</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">oss</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-3xl bg-[#453c56]">
+            <div className="flex flex-col align-items-center  max-w-2xl p-6 rounded-3xl">
+              <div className="flex flex-row mb-[1%] items-center">
+                <h1 className="relative font-medium text-3xl mr-[1%]">
+                  {" "}
+                  sample project
+                </h1>
+
+                <div className="pl-4 flex flex-col justify-center w-[50%]">
+                  <h1 className="relative font-medium text-2xl text-[#313244]">
+                    sample project type
+                  </h1>
+                </div>
+              </div>
+              <p>
+                Quam et aut eum dolores dolore. Quia sed laboriosam rerum
+                voluptatem dignissimos. Sequi tempora inventore perferendis. Ut
+                et ut dolores sint. Tempora nesciunt consequatur id sunt vero.
+              </p>
+              <div className="grid grid-cols-3 gap-1 mt-2">
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">sample</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">html</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">css</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">react</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">oss</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-3xl bg-[#453c56]">
+            <div className="flex flex-col align-items-center  max-w-2xl p-6 rounded-3xl">
+              <div className="flex flex-row mb-[1%] items-center">
+                <h1 className="relative font-medium text-3xl mr-[1%]">
+                  {" "}
+                  sample project
+                </h1>
+
+                <div className="pl-4 flex flex-col justify-center w-[50%]">
+                  <h1 className="relative font-medium text-2xl text-[#313244]">
+                    sample project type
+                  </h1>
+                </div>
+              </div>
+              <p>
+                Quam et aut eum dolores dolore. Quia sed laboriosam rerum
+                voluptatem dignissimos. Sequi tempora inventore perferendis. Ut
+                et ut dolores sint. Tempora nesciunt consequatur id sunt vero.
+              </p>
+              <div className="grid grid-cols-3 gap-1 mt-2">
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">sample</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">html</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">css</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">react</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">oss</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-3xl bg-[#453c56]">
+            <div className="flex flex-col align-items-center  max-w-2xl p-6 rounded-3xl">
+              <div className="flex flex-row mb-[1%] items-center">
+                <h1 className="relative font-medium text-3xl mr-[1%]">
+                  {" "}
+                  sample project
+                </h1>
+
+                <div className="pl-4 flex flex-col justify-center w-[50%]">
+                  <h1 className="relative font-medium text-2xl text-[#313244]">
+                    sample project type
+                  </h1>
+                </div>
+              </div>
+              <p>
+                Quam et aut eum dolores dolore. Quia sed laboriosam rerum
+                voluptatem dignissimos. Sequi tempora inventore perferendis. Ut
+                et ut dolores sint. Tempora nesciunt consequatur id sunt vero.
+              </p>
+              <div className="grid grid-cols-3 gap-1 mt-2">
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">sample</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">html</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">css</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">react</span>
+                </div>
+                <div className="rounded-md bg-[#594c6f] mr-2">
+                  <span className="text-[#a6adc8] px-3">oss</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-5xl flex flex-row items-center justify-center mt-4 text-[#c6a2f1] underline-offset-4 underline ">
+          <p>✨ see more projects </p>
+          <HiOutlineArrowRight className="ml-2" />
         </div>
       </div>
     </section>
